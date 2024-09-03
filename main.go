@@ -52,7 +52,7 @@ func (s *Server) hanldeConn(conn net.Conn) {
 }
 
 func main() {
-	fmt.Println("Hello, 世界")
+	fmt.Println("Hello")
 	server := NewServer()
 	server.Listen()
 }
